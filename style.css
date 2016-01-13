@@ -55,6 +55,11 @@ nav li {
 	text-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
 }
 
+.section_heading a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .section_subheading {
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -106,6 +111,10 @@ nav li {
 
 .gallery li:hover {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gallery img {
+	vertical-align: bottom;
 }
 
 /********************************************
