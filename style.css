@@ -223,7 +223,7 @@ MEDIA QUERIES
 @media (max-width: 500px) {
 	nav {display: none;}
 	.section_heading {font-size: 55px;}
-	.footerSection {width: 100%; margin: 10px 0; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+	.footerSection {width: 100%; margin: 10px 0; padding-top: 20px; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
 	.footerSection a {text-decoration: underline;}
 	.footer4 {height: 180px;}
 	footer h3 {font-size: 24px; line-height: 26px;}
