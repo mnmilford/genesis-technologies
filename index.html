@@ -126,5 +126,28 @@
           </div>
       </div>
     </footer>
+    <a href="#" class="scrollup"></a>
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 2000) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+    </script>
+
   </body>
 </html>

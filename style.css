@@ -217,6 +217,23 @@ footer h3 {
 }
 
 /********************************************
+SCROLL UP
+********************************************/
+
+.scrollup {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 18px;
+    right: 18px;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    display: none;
+    text-indent: -9999px;
+    background: url('images/top.png') no-repeat;
+}
+
+/********************************************
 MEDIA QUERIES
 ********************************************/
 
