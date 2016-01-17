@@ -67,6 +67,7 @@ nav li {
 	display: inline-block;
 	/*background-color: orange;*/
 	height: 50px;
+	padding-top: 4px;
 	width: 30%;
 	vertical-align: top;
 }
