@@ -1,18 +1,18 @@
 Non-Profit Section
 
-•	Replace Corel with Sony
-•	Remove Yamaha & refurbished electronics
-•	Add Filemaker
-•	Add a double-wide icon linking to Music section
+•	[DONE] Replace Corel with Sony
+•	[DONE] Remove Yamaha & refurbished electronics
+•	[DONE] Add Filemaker
+•	[DONE] Add a double-wide icon linking to Music section
 
 Education
 
-•	Switch out Corel for LockNCharge
-•	Change “chromebook” to “Google”
+•	[DONE] Switch out Corel for LockNCharge
+•	[DONE] Change “chromebook” to “Google”
 
 Government
 
-•	Change sub-heading to “Federal, State, and Local Government Entities”
-•	Add Dragon Professional Government
-•	Remove Trend Micro
-•	Add Olympus
+•	[DONE] Change sub-heading to “Federal, State, and Local Government Entities”
+•	[DONE] Add Dragon Professional Government
+•	[DONE] Remove Trend Micro
+•	[DONE] Add Olympus
