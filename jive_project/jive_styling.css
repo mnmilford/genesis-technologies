@@ -41,7 +41,7 @@ body {
 
 .header h1, .header h2 {
   color: white;
-  line-height: 1em;
+  line-height: .5em;
   text-align: center;
 }
 
