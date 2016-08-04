@@ -16,7 +16,9 @@ video {width: 100% !important; height: auto !important;}
 
 .clearfix {overflow: auto;}
 
-.center-img {margin: 0 auto; display: inherit;}
+.center-img {margin: 0 auto; display: inherit; width: 100%; height: auto !important;}
+
+.tablefix {display: table;}
 
 .btn {
   height: 36px;
@@ -48,6 +50,11 @@ section {
   max-width: 1200px;
   padding: 15px 15px;
   margin: 0 auto;
+}
+
+.container-sm {
+  margin: 0 auto;
+  display: table;
 }
 
 .greySection {
