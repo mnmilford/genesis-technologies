@@ -9,6 +9,22 @@ video {width: 100% !important; height: auto !important;}
 
 .clearfix {overflow: auto;}
 
+.btn {
+  height: 36px;
+  border-radius: 2px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #BECF30;
+  color: #666;
+  text-align: center;
+  padding: 3px 30px;
+  box-shadow: 0 2px 5px 0;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 11px 0;
+}
 
 /*************************************
 MOBILE STYLES
@@ -24,6 +40,10 @@ body {
 .top {
 	background-color: #3E3D3D;
   padding: 15px 0;
+}
+
+.top img {
+  max-width: 80%;
 }
 
 .top-first, .top-second {
@@ -129,8 +149,6 @@ MEDIA-QUERIES
     float: right;
   }
 }
-
-
 
 /*************************************
 NORMALIZE STYLES 
