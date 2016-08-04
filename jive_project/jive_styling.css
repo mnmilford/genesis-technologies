@@ -7,13 +7,16 @@ BASIC STYLING
   --grey: #F4F4F4;
 }
 
-body {font-size: 125%;}
+body {font-size: 1.25em;}
+ul {font-size: 1.15rem;}
 
 h1,h2,h3,h4,h5,h6 {color: #666;}
 
 video {width: 100% !important; height: auto !important;}
 
 .clearfix {overflow: auto;}
+
+.center-img {margin: 0 auto; display: inherit;}
 
 .btn {
   height: 36px;
@@ -110,12 +113,6 @@ MEDIA-QUERIES
 **************************************/
 
 @media screen and (min-width: 800px)  {
-  .mobile_img {
-    display: none;
-  }
-  .desktop_img {
-    display: inline;
-  }
   .top {
     padding: 15px 0 8px;
   }
