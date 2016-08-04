@@ -3,6 +3,10 @@ BASIC STYLING
 **************************************/
 * {color: #8c8c8c; font-family: 'Source Sans Pro', sans-serif;}
 
+:root {
+  --grey: #F4F4F4;
+}
+
 body {font-size: 125%;}
 
 h1,h2,h3,h4,h5,h6 {color: #666;}
@@ -22,7 +26,7 @@ video {width: 100% !important; height: auto !important;}
   text-align: center;
   padding: 10px 30px;
   box-shadow: 0 1px 3px 0;
-  display: inline-block;
+  display: block;
   margin: 0 3px 5px;
 }
 
@@ -31,13 +35,27 @@ video {width: 100% !important; height: auto !important;}
   background-color: #C4D500;
 }
 
+section {
+  overflow: auto;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.container-lg {
+  max-width: 1200px;
+  padding: 15px 10px;
+  margin: 0 auto;
+}
+
+.greySection {
+  background-color: var(--grey);
+  background-color: #F4F4F4;
+}
+
+
 /*************************************
 MOBILE STYLES
 **************************************/
-
-/*.desktop_img {
-  display: none;
-}*/
 
 .top {
 	background-color: #3E3D3D;
@@ -79,19 +97,11 @@ MOBILE STYLES
 }
 
 .header-second {
-  background: url('images/jive.gif');
+  background: url('images/jive-fixed.gif');
   height: 200px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-.content {
-  padding: 20px 30px;
-}
-
-.whyJive {
-  margin-bottom: 30px;
 }
 
 
@@ -128,12 +138,12 @@ MEDIA-QUERIES
   }
   .header-first {
     float: left;
-    width: 50%;
+    width: 48%;
     margin-top: 30px;
   }
   .header-second {
     float: right;
-    width: 50%;
+    width: 48%;
     height: 385px;
     background-position: center right;
   }
@@ -144,28 +154,17 @@ MEDIA-QUERIES
   .header h1, .header h2 {
     text-align: left;
   }
-  .content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px 15px;
-  }
   .whyJive1 {
     width: 48%;
     float: left;
-  }
-  .whyJive1 h1 {
-    margin-top: 0px;
   }
   .whyJive2 {
     width: 48%;
     float: right;
   }
-  .whyJive2 h2 {
-    margin-top: 18px;
-  }
-
   .btn {
-    font-size: 150%;
+    font-size: 110%;
+    display: inline-block;
   }
 }
 
