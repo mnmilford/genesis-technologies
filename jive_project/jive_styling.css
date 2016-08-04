@@ -36,7 +36,7 @@ body {
 
 .header {
   background-color: #0877BE;
-  padding: 20px 15px;
+  padding: 20px 30px;
 }
 
 .header h1, .header h2 {
@@ -58,7 +58,7 @@ body {
 }
 
 .content {
-  padding: 20px 15px;
+  padding: 20px 30px;
 }
 
 
