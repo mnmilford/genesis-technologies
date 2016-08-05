@@ -5,11 +5,13 @@ BASIC STYLING
 
 body {font-size: 1.25em;}
 
+.content {font-size: 1.15rem}
+
 ul {font-size: 1.15rem;}
 
 h1,h2,h3,h4,h5,h6 {color: #666;}
 
-video {width: 70% !important; height: auto !important;}
+video {width: 100% !important; height: auto !important;}
 
 .clearfix {overflow: auto;}
 
@@ -214,6 +216,7 @@ MEDIA-QUERIES
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  video {width: 70% !important; height: auto !important;}
 }
 
 @media screen and (max-width: 330px) {
