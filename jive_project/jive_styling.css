@@ -18,13 +18,16 @@ video {width: 100% !important; height: auto !important;}
   line-height: 36px;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #B9CF13;
   color: #666;
   text-align: center;
   padding: 10px 30px;
   box-shadow: 0 1px 3px 0;
   display: block;
   margin: 0 3px 5px;
+  background: rgb(228,255,23); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(228,255,23,1) 0%, rgba(185,207,19,1) 80%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(228,255,23,1) 0%,rgba(185,207,19,1) 80%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(228,255,23,1) 0%,rgba(185,207,19,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .btn:hover {
@@ -113,12 +116,13 @@ MOBILE STYLES
 
 .feature {
   margin-bottom: 45px;
+  text-align: center;
 }
 
-.feature img {
-  max-height: 100px;
+/*.feature img {
+  max-height: 150px;
   width: auto;
-}
+}*/
 
 .feature p {
   margin-bottom: 0;
@@ -177,11 +181,11 @@ MEDIA-QUERIES
     text-align: left;
   }
   .whyJive1 {
-    width: 40%;
+    width: 39%;
     float: left;
   }
   .whyJive2 {
-    width: 56%;
+    width: 58%;
     float: right;
   }
   .whyJive2 h2 {
@@ -201,14 +205,15 @@ MEDIA-QUERIES
   .feature {
     max-width: 48%;
   }
-  .omgwtf {
-    padding: 14px 0;
-  }
   .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
+}
+
+@media screen and (max-width: 330px) {
+  body {font-size: 1.15em;}
 }
 
 /*************************************
