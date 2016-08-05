@@ -9,7 +9,7 @@ ul {font-size: 1.15rem;}
 
 h1,h2,h3,h4,h5,h6 {color: #666;}
 
-video {width: 100% !important; height: auto !important;}
+video {width: 70% !important; height: auto !important;}
 
 .clearfix {overflow: auto;}
 
@@ -134,6 +134,10 @@ MOBILE STYLES
 
 #productHighlights .container-sm > div:last-child {
   margin-bottom: 0;
+}
+
+#GetAQuote > div:first-child {
+  text-align: center;
 }
 
 
