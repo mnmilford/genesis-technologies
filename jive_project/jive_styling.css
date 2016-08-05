@@ -1,13 +1,10 @@
 /*************************************
 BASIC STYLING
 **************************************/
-* {color: #8c8c8c; font-family: 'Source Sans Pro', sans-serif;}
-
-:root {
-  --grey: #F4F4F4;
-}
+* {color: #8c8c8c; font-family: 'Source Sans Pro', sans-serif; box-sizing: border-box;}
 
 body {font-size: 1.25em;}
+
 ul {font-size: 1.15rem;}
 
 h1,h2,h3,h4,h5,h6 {color: #666;}
@@ -16,12 +13,7 @@ video {width: 100% !important; height: auto !important;}
 
 .clearfix {overflow: auto;}
 
-.center-img {margin: 0 auto; display: inherit; width: 100%; height: auto !important;}
-
-.tablefix {display: table;}
-
 .btn {
-  height: 36px;
   border-radius: 2px;
   line-height: 36px;
   text-transform: uppercase;
@@ -50,15 +42,16 @@ section {
   max-width: 1200px;
   padding: 15px 15px;
   margin: 0 auto;
+  overflow: auto;
 }
 
 .container-sm {
+  max-width: 900px;
+  padding: 15px 20px;
   margin: 0 auto;
-  display: table;
 }
 
 .greySection {
-  background-color: var(--grey);
   background-color: #F4F4F4;
 }
 
@@ -114,6 +107,31 @@ MOBILE STYLES
   background-position: center center;
 }
 
+.whyJive1 h1 {
+  margin-top: 0px;
+}
+
+.feature {
+  margin-bottom: 45px;
+}
+
+.feature img {
+  max-height: 100px;
+  width: auto;
+}
+
+.feature p {
+  margin-bottom: 0;
+}
+
+.feature h3 {
+  margin-top: 11.7px;
+}
+
+#productHighlights .container-sm > div:last-child {
+  margin-bottom: 0;
+}
+
 
 /*************************************
 MEDIA-QUERIES
@@ -159,16 +177,37 @@ MEDIA-QUERIES
     text-align: left;
   }
   .whyJive1 {
-    width: 48%;
+    width: 40%;
     float: left;
   }
   .whyJive2 {
-    width: 48%;
+    width: 56%;
     float: right;
+  }
+  .whyJive2 h2 {
+    font-size: 2em;
+    margin: 0 0 26.8px;
   }
   .btn {
     font-size: 110%;
     display: inline-block;
+  }
+  #productHighlights > div:first-child {
+    padding-top: 60px;
+  }
+  #productHighlights .container-sm > div:last-child {
+  margin-bottom: 45px;
+  }
+  .feature {
+    max-width: 48%;
+  }
+  .omgwtf {
+    padding: 14px 0;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
