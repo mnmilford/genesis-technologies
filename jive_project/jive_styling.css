@@ -60,6 +60,14 @@ section {
   background-color: #F4F4F4;
 }
 
+.notopmargin {
+  margin-top: 0;
+}
+
+.fit-img {
+  width: 100% !important; height: auto !important;
+}
+
 
 /*************************************
 MOBILE STYLES
@@ -101,7 +109,7 @@ MOBILE STYLES
 }
 
 .header p {
-  color: #06baf2;
+  color: #96D9FF;
 }
 
 .header-second {
@@ -112,7 +120,7 @@ MOBILE STYLES
   background-position: center center;
 }
 
-.whyJive1 h1 {
+.container-lg h1 {
   margin-top: 0px;
 }
 
@@ -215,6 +223,10 @@ MEDIA-QUERIES
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .resourceSection {
+    margin: 0 40px;
+    display: inline-block;
   }
   video {width: 70% !important; height: auto !important;}
 }
