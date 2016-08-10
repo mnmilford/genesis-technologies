@@ -37,12 +37,33 @@ video {width: 100% !important; height: auto !important;}
 .btn:hover {
   box-shadow: 0 3px 7px 0;
   background-color: #C4D500;
+
+}
+
+.quoteBtn {
+  display: block;
+  position: fixed;
+  top: 77%;
+  right: 0%;
+  background-color: #FBB03B;
+  border-radius: 15px 0 0 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 15px;
+  box-shadow: 0 1px 3px 0 #666;
+}
+
+.quoteBtn:hover {
+  box-shadow: 0 3px 5px 0 #666;
+  background-color: #FF8F12;
 }
 
 section {
   overflow: auto;
   width: 100%;
-  padding: 15px 0;
+  padding: 35px 0;
 }
 
 .container-lg {
@@ -74,6 +95,7 @@ section {
   list-style-type: none;
   list-style-position: outside;
 }
+
 
 /*************************************
 MOBILE STYLES
