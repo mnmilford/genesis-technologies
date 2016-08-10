@@ -41,23 +41,15 @@ video {width: 100% !important; height: auto !important;}
 }
 
 .quoteBtn {
-  display: block;
   position: fixed;
-  top: 77%;
-  right: 0%;
+  top: 0;
+  width: 100%;
   background-color: #FBB03B;
-  border-radius: 15px 0 0 40px;
   text-transform: uppercase;
   text-decoration: none;
   color: #FFF;
   text-align: center;
   padding: 10px 15px;
-  box-shadow: 0 1px 3px 0 #666;
-}
-
-.quoteBtn:hover {
-  box-shadow: 0 3px 5px 0 #666;
-  background-color: #FF8F12;
 }
 
 section {
@@ -104,6 +96,7 @@ MOBILE STYLES
 .top {
 	background-color: #3E3D3D;
   padding: 15px 0;
+  margin-top: 45px;
 }
 
 .top img {
@@ -157,11 +150,6 @@ MOBILE STYLES
   text-align: center;
 }
 
-/*.feature img {
-  max-height: 150px;
-  width: auto;
-}*/
-
 .feature p {
   margin-bottom: 0;
 }
@@ -186,6 +174,7 @@ MEDIA-QUERIES
 @media screen and (min-width: 800px)  {
   .top {
     padding: 15px 0 8px;
+    margin: 0;
   }
   .top-content {
     max-width: 1100px;
@@ -238,6 +227,19 @@ MEDIA-QUERIES
     font-size: 110%;
     display: inline-block;
   }
+  .quoteBtn {
+    display: block;
+    position: fixed;
+    top: 77%;
+    right: 0%;
+    border-radius: 15px 0 0 40px;
+    box-shadow: 0 1px 3px 0 #666;
+    width: auto;
+  }
+  .quoteBtn:hover {
+    box-shadow: 0 3px 5px 0 #666;
+    background-color: #FF8F12;
+  }
   #productHighlights > div:first-child {
     padding-top: 60px;
   }
@@ -256,7 +258,9 @@ MEDIA-QUERIES
     margin: 0 40px;
     display: inline-block;
   }
-  video {width: 70% !important; height: auto !important;}
+  video {
+    width: 70% !important; height: auto !important;
+  }
 }
 
 @media screen and (max-width: 330px) {
