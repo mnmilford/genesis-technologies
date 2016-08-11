@@ -83,11 +83,6 @@ section {
   width: 100% !important; height: auto !important;
 }
 
-#caseStudies li {
-  list-style-type: none;
-  list-style-position: outside;
-}
-
 
 /*************************************
 MOBILE STYLES
@@ -145,6 +140,52 @@ MOBILE STYLES
   margin-top: 0px;
 }
 
+#caseStudies {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+#caseStudies .container-lg {
+  padding: 0;
+}
+
+.resourceSection a {
+  display: block;
+  padding: 4px 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.resourceSection a:hover {
+  font-size: 105%;
+  font-weight: bold;
+}
+
+.resourceSection {
+  padding: 60px 0px;
+  width: 100%;
+  font-size: 110%;
+}
+
+.resourceSection h3 {
+  color: #ffffff;
+}
+
+.K12 {
+  background: url('images/k12-pattern.png');
+  background-repeat: repeat;
+}
+
+.NPO {
+  background: url('images/npo-pattern.png');
+  background-repeat: repeat;
+}
+
+.SMB {
+  background: url('images/smb-pattern.png');
+  background-repeat: repeat; 
+}
+
 .feature {
   margin-bottom: 45px;
   text-align: center;
@@ -162,8 +203,10 @@ MOBILE STYLES
   margin-bottom: 0;
 }
 
-#GetAQuote > div:first-child {
+#GetAQuote .container-lg {
   text-align: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
@@ -252,14 +295,18 @@ MEDIA-QUERIES
   .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .resourceSection {
-    margin: 0 40px;
-    display: inline-block;
+    /*flex-grow: 1;*/
+    flex-basis: 31.5%; 
+    background-color: #ffffff;
+    padding: 84px 0;
+    font-size: 130%;
+    /*min-height: 350px;*/
   }
-  video {
-    width: 70% !important; height: auto !important;
+  #caseStudies {
+    padding-bottom: 105px;
   }
 }
 
