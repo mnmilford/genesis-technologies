@@ -19,7 +19,7 @@ video {width: 100% !important; height: auto !important;}
 
 .btn {
   border-radius: 2px;
-  line-height: 36px;
+  line-height: 24px;
   text-transform: uppercase;
   text-decoration: none;
   color: #666;
@@ -65,8 +65,8 @@ section {
 }
 
 .container-sm {
-  max-width: 900px;
-  padding: 15px 20px;
+  max-width: 1000px;
+  padding: 15px 15px;
   margin: 0 auto;
 }
 
@@ -268,10 +268,28 @@ MOBILE STYLES
   border-bottom: 1px dashed #fff;
 }
 
+#whyJive img {
+  display: none;
+}
+
 
 /*************************************
 MEDIA-QUERIES
 **************************************/
+
+@media screen and (min-width: 1400px) {
+    #whyJive img {
+    display: inline-block;
+    position: relative;
+    bottom: 225px;
+    left: 60%;
+    width: 425px;
+    height: auto;
+  }
+    #whyJive {
+    margin-bottom: -200px;
+  }
+}
 
 @media screen and (min-width: 800px)  {
   .top {
