@@ -11,7 +11,13 @@ ul {font-size: 1.15rem;}
 
 h1,h2,h3,h4,h5,h6 {color: #666;}
 
-video {width: 100% !important; height: auto !important;}
+video {
+  width: 100% !important; 
+  height: auto !important;
+  -webkit-box-shadow: 0px 3px 10px -1px rgba(102,102,102,1);
+  -moz-box-shadow: 0px 3px 10px -1px rgba(102,102,102,1);
+  box-shadow: 0px 3px 10px -1px rgba(102,102,102,1);
+}
 
 .center {text-align: center;}
 
@@ -213,11 +219,19 @@ MOBILE STYLES
   margin-bottom: 0;
 }
 
-#GetAQuote .container-lg {
-  text-align: center;
-  padding-left: 0;
-  padding-right: 0;
+#GetAQuote {
+  padding: 0;
 }
+
+#GetAQuote .container-sm {
+  text-align: center;
+  padding: 0;
+}
+
+/*#JiveTestimonial {
+  width: 100%;
+  padding: 50px 0 15px;
+}*/
 
 #quoteForm {
   position: relative;
@@ -274,6 +288,13 @@ MOBILE STYLES
 
 #whyJive img {
   display: none;
+}
+
+#JiveTestimonial {
+  background: url('images/organized_GS.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
 }
 
 
